@@ -1,3 +1,61 @@
+
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+/* the top half of the background */
+#top {
+    background-image: url('./images/bg-pattern-top.svg');
+}
+
+/* the main card */
+#card {
+    background-image: url('./images/bg-pattern-card.svg');
+    margin: auto;
+    width: 45%;
+    text-align: center;
+}
+
+/* profile image */
+img {
+    border-radius: 50%;
+}
+
+/* Victor's name */
+#name {
+
+}
+
+/* Victor's age */
+#age {
+    display: inline-flex;
+}
+
+/* London */
+#london {
+
+}
+
+/* the smaller cards for followers, likes, photos */
+#stats {
+    /* border-top: solid 1px lightgrey; */
+}
+
+/* the numeric stats -- change this to a h5 or smth */
+#number {
+
+}
+
+/* the labels -- change this to a h3 or smth */
+#label {
+    
+}
+
+/* the bottom half of the background */
+#bottom {
+    background-image: url('./images/bg-pattern-bottom.svg');
+}
+
 .attribution {
     display: none;
 }
