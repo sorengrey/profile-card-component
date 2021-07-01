@@ -1,27 +1,27 @@
 
 body {
+    background-image: url('./images/bg-pattern-top.svg'),url('./images/bg-pattern-bottom.svg');
     background-color: hsl(185, 75%, 39%);
-}
-
-/* the top half of the background */
-#top {
-    background-image: url('./images/bg-pattern-top.svg');
+    background-repeat: no-repeat;
 }
 
 /* the main card */
 #card {
-    /* background-image: url('./images/bg-pattern-card.svg'); */
     background-color: white;
     margin: auto;
-    width: 45%;
+    width: 80%;
     text-align: center;
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px; 
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* the container around the profile image */
 #image {
     background-image: url('./images/bg-pattern-card.svg');
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    padding-top: 2em;
 }
 
 /* profile image */
@@ -58,12 +58,6 @@ img {
 /* the labels -- change this to a h3 or smth */
 #label {
     
-}
-
-/* the bottom half of the background */
-#bottom {
-    background-image: url('./images/bg-pattern-bottom.svg');
-    background-size: auto;
 }
 
 .attribution {
