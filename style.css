@@ -3,12 +3,14 @@ body {
     background-image: url('./images/bg-pattern-top.svg'),url('./images/bg-pattern-bottom.svg');
     background-color: hsl(185, 75%, 39%);
     background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 /* the main card */
 #card {
     background-color: white;
     margin: auto;
+    margin-top: 4em;
     width: 80%;
     text-align: center;
     border-radius: 9px;
@@ -28,11 +30,13 @@ body {
 img {
     border-radius: 50%;
     border: solid 5px white;
+    margin-bottom: -4em;
 }
 
 /* Victor's name */
 #name {
-
+ padding-top: 5em;
+ font-weight: 700;
 }
 
 /* Victor's age */
@@ -47,7 +51,7 @@ img {
 
 /* the smaller cards for followers, likes, photos */
 #stats {
-    /* border-top: solid 1px lightgrey; */
+    border-top: solid 1px lightgrey;
 }
 
 /* the numeric stats -- change this to a h5 or smth */
