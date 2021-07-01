@@ -23,7 +23,7 @@ body {
     background-image: url('./images/bg-pattern-card.svg');
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
-    padding-top: 2em;
+    padding-top: 4.5em;
 }
 
 /* profile image */
@@ -37,31 +37,46 @@ img {
 #name {
  padding-top: 5em;
  font-weight: 700;
+ color:hsl(229, 23%, 23%);
+ padding-bottom: .5em;
 }
 
 /* Victor's age */
 #age {
     display: inline-flex;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
 }
 
 /* London */
 #london {
-
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 1em;
 }
 
-/* the smaller cards for followers, likes, photos */
+/* holds the smaller cards for followers, likes, photos */
 #stats {
     border-top: solid 1px lightgrey;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+/* the smaller cards */
+.minicard {
+    display: inline-block;
+    padding: 1em;
 }
 
 /* the numeric stats -- change this to a h5 or smth */
-#number {
-
+.number {
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
 }
 
 /* the labels -- change this to a h3 or smth */
-#label {
-    
+.label {
+
 }
 
 .attribution {
