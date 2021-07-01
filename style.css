@@ -10,15 +10,24 @@ body {
 
 /* the main card */
 #card {
-    background-image: url('./images/bg-pattern-card.svg');
+    /* background-image: url('./images/bg-pattern-card.svg'); */
+    background-color: white;
     margin: auto;
     width: 45%;
     text-align: center;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px; 
+}
+
+/* the container around the profile image */
+#image {
+    background-image: url('./images/bg-pattern-card.svg');
 }
 
 /* profile image */
 img {
     border-radius: 50%;
+    border: solid 5px white;
 }
 
 /* Victor's name */
@@ -54,6 +63,7 @@ img {
 /* the bottom half of the background */
 #bottom {
     background-image: url('./images/bg-pattern-bottom.svg');
+    background-size: auto;
 }
 
 .attribution {
