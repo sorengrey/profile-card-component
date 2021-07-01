@@ -68,9 +68,7 @@ img {
 /* holds the smaller cards for followers, likes, photos */
 #stats {
     border-top: solid 1px lightgrey;
-    padding-top: 1.5em;
-    padding-left: 1em;
-    padding-bottom: 1em;
+    padding: 24px 16px 16px 24px;
 }
 
 /* the smaller cards */
@@ -100,11 +98,3 @@ img {
 .attribution {
     display: none;
 }
-/* 
-@media only screen
-    and (min-width:769px)
-    and (max-width: 1440px){
-        #card {
-
-        }
-} */
