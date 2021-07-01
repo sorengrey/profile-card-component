@@ -2,18 +2,21 @@
 body {
     background-image: url('./images/bg-pattern-top.svg'),url('./images/bg-pattern-bottom.svg');
     background-color: hsl(185, 75%, 39%);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 51vw bottom 20vh, left 45vw top 50vh;
     font-family: 'Kumbh Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* the main card */
 #card {
     background-color: white;
     margin: auto;
-    margin-top: 4em;
-    width: 80%;
+    margin-top: 5em;
+    width: 85%;
     text-align: center;
-    border-radius: 9px;
+    border-radius: 12px;
     justify-content: center;
     align-items: center;
 }
@@ -21,8 +24,8 @@ body {
 /* the container around the profile image */
 #image {
     background-image: url('./images/bg-pattern-card.svg');
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     padding-top: 4.5em;
 }
 
@@ -35,10 +38,12 @@ img {
 
 /* Victor's name */
 #name {
- padding-top: 5em;
- font-weight: 700;
- color:hsl(229, 23%, 23%);
- padding-bottom: .5em;
+    padding-top: 5em;
+    font-weight: 700;
+    color:#2E3349;
+    padding-bottom: .6em;
+    line-height: 18px;
+    font-size: 18px;
 }
 
 /* Victor's age */
@@ -46,12 +51,17 @@ img {
     display: inline-flex;
     color: hsl(0, 0%, 59%);
     font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: .3em;
 }
 
 /* London */
 #london {
-    color: hsl(0, 0%, 59%);
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
+    line-height: 14px;
+    font-size: 14px;
+    color: #6B7082;
 }
 
 /* holds the smaller cards for followers, likes, photos */
@@ -70,15 +80,28 @@ img {
 
 /* the numeric stats -- change this to a h5 or smth */
 .number {
-    color:hsl(229, 23%, 23%);
+    color: #2E3349;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 18.11px;
 }
 
 /* the labels -- change this to a h3 or smth */
 .label {
-
+    text-align: center;
+    font-size: 10px;
+    line-height: 10.06px;
+    letter-spacing: 1.5px;
+    padding-top: .5em;
+    color: #6B7082;
 }
 
 .attribution {
     display: none;
+}
+
+@media only screen
+    and (min-width:769px)
+    and (max-width: 1440px){
+
 }
