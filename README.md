@@ -22,6 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### The challenge
 
 - Build out the project to the designs provided
+- Get a better understanding of positioning background images
 
 ### Screenshot
 
@@ -44,31 +45,14 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+This challenge was excellent practice for the skills I already have, but I also picked up something new. Previously, I was unaware that two or more background images could be used for one div. I tried using two separate divs, one for each image, but that was clumsy and didn't work out. After some time spent on [W3 Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_background_multiple), I was able to figure it out and get the images in the right place.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+This will probably be tweaked here and there when it comes to padding/margins. However, I will mostly re-use this component when building websites. I may also turn it into a React component at some point. 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Heather Smith - Junior Frontend Developer](https://sorengrey.github.io/current-portfolio/)
+- Frontend Mentor - [@sorengrey](https://www.frontendmentor.io/profile/yourusername)
